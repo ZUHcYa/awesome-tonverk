@@ -1,4 +1,4 @@
-# Awesome Toneverk Knowledge Base
+# Awesome Tonverk Knowledge Base
 
 A community-driven collection of tips, tricks, workflows, and obscure hacks for the Elektron Tonverk.
 
