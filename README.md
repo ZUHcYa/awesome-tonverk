@@ -5,7 +5,7 @@ A community-driven collection of tips, tricks, workflows, and obscure hacks for 
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-## ⚠️ Important Note on Firmware Versions
+##  Important Note on Firmware Versions
 
 Elektron devices evolve. A trick that worked in OS 1.30 might be obsolete in OS 1.50.
 Please check the badges at the top of every guide:
@@ -13,21 +13,11 @@ Please check the badges at the top of every guide:
 - ![OS 1.20+](https://img.shields.io/badge/OS-1.20%2B-success?style=flat-square): Confirmed working on the latest firmware.
 - ![OS Legacy](https://img.shields.io/badge/OS-Legacy-orange?style=flat-square): Works on older firmware, but there might be a better way now.
 
-## 📚 Contents
+##  Contents
 
-### 🎛 Workflow & Shortcuts
-- [Global Copy/Paste Hacks](content/workflow/global-copy-paste.md)
-- [The "Func + Yes" Save Game](content/workflow/temp-save.md)
+### Category 1
 
-### 🔊 Sound Design
-- [Single Cycle Waveforms 101](content/sound-design/single-cycle-waves.md)
-- [Kick Drum Synthesis from Scratch](content/sound-design/kick-synthesis.md)
-
-### 🔌 Hardware & MIDI
-- [iPad Connection via USB Audio](content/hardware/ipad-usb.md)
-- [Controlling External Synths](content/hardware/midi-sequencing.md)
-
-## 🤝 Contributing
+##  Contributing
 
 Got a trick? We want it!
 Please read our [Contribution Guidelines](CONTRIBUTING.md) before submitting a Pull Request.
@@ -38,9 +28,6 @@ Please read our [Contribution Guidelines](CONTRIBUTING.md) before submitting a P
 3. Keep it reproducible.
 
 
-## Contributors ✨
-
-Thanks goes to these wonderful people:
 
 ---
 *Disclaimer: This repository is a community project and not affiliated with Elektron Music Machines MAV AB.*
