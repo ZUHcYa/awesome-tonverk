@@ -12,7 +12,7 @@ A community-driven collection of tips, tricks, workflows, and obscure hacks for 
 Elektron devices evolve. A trick that worked in OS 1.30 might be obsolete in OS 1.50.
 Please check the badges at the top of every guide:
 
-- ![OS 1.50+](https://img.shields.io/badge/OS-1.50%2B-success?style=flat-square): Confirmed working on the latest firmware.
+- ![OS 1.20+](https://img.shields.io/badge/OS-1.20%2B-success?style=flat-square): Confirmed working on the latest firmware.
 - ![OS Legacy](https://img.shields.io/badge/OS-Legacy-orange?style=flat-square): Works on older firmware, but there might be a better way now.
 
 ## 📚 Contents

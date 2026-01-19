@@ -1,20 +1,42 @@
-name: Neuer Trick / Vorschlag
-description: Du hast einen Trick gefunden, willst ihn aber nicht selbst als PR einreichen?
+name: Submit a Trick / Idea
+description: Found a cool workflow but don't know how to use Git? Submit it here!
 title: "[TRICK]: "
 labels: ["content-new"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Please describe the trick as clearly as possible so a maintainer can add it to the repo.
+
   - type: textarea
     id: description
     attributes:
-      label: Beschreibung des Tricks
-      description: Erkläre Schritt für Schritt, was man tun muss.
-      placeholder: 1. Drücke FUNC + YES...
+      label: Trick Description
+      description: Step-by-step guide on how to reproduce the trick.
+      placeholder: |
+        1. Select a track
+        2. Press FUNC + LFO...
+        3. Observe that...
     validations:
       required: true
+
   - type: input
     id: os_version
     attributes:
-      label: Getestete OS Version
-      placeholder: z.B. 1.50
+      label: Tested OS Version
+      placeholder: e.g. 1.50
+      description: Crucial for Elektron devices!
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Workflow
+        - Sound Design
+        - Hardware / MIDI
+        - Other
     validations:
       required: true
