@@ -47,7 +47,7 @@ Hold a trig or record a long note. You should hear the sample "skipping" through
 
 ```mermaid
 graph LR
-    A[LFO 1 (Random)] -- Modulates --> B(Sample Start Point)
+    A[LFO 1 Random] -- Modulates --> B(Sample Start Point)
     C[Sequencer Trig] --> D[Amp Envelope]
     B --> E[Audio Output]
     D -- Gates --> E
