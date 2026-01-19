@@ -1,0 +1,20 @@
+name: Neuer Trick / Vorschlag
+description: Du hast einen Trick gefunden, willst ihn aber nicht selbst als PR einreichen?
+title: "[TRICK]: "
+labels: ["content-new"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung des Tricks
+      description: Erkläre Schritt für Schritt, was man tun muss.
+      placeholder: 1. Drücke FUNC + YES...
+    validations:
+      required: true
+  - type: input
+    id: os_version
+    attributes:
+      label: Getestete OS Version
+      placeholder: z.B. 1.50
+    validations:
+      required: true

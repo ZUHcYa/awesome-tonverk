@@ -1,0 +1,24 @@
+name: Links prüfen
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 1" # Läuft jeden Montag
+  pull_request:         # Prüft auch bei jedem PR, ob der User kaputte Links einreicht!
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Link Checker (Lychee)
+        uses: lycheeverse/lychee-action@v1.8.0
+        with:
+          # Failt den PR, wenn Links kaputt sind
+          fail: true
+          # Prüft alle Markdown files
+          args: --verbose --no-progress './**/*.md'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
