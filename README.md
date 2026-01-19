@@ -7,19 +7,15 @@ A community-driven collection of tips, tricks, workflows, and obscure hacks for 
 
 ##  Important Note on Firmware Versions
 
-Elektron devices evolve. A trick that worked in OS 1.30 might be obsolete in OS 1.50.
+Elektron devices evolve. A trick that worked in OS 1.10 might be obsolete in OS 1.20.
 Please check the badges at the top of every guide:
 
 - ![OS 1.20+](https://img.shields.io/badge/OS-1.20%2B-success?style=flat-square): Confirmed working on the latest firmware.
 - ![OS Legacy](https://img.shields.io/badge/OS-Legacy-orange?style=flat-square): Works on older firmware, but there might be a better way now.
 
-##  Contents
-
-### Category 1
-
 ##  Contributing
 
-Got a trick? We want it!
+Got a trick, workaround? We want it!
 Please read our [Contribution Guidelines](CONTRIBUTING.md) before submitting a Pull Request.
 
 **Quick Rules:**
