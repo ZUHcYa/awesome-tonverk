@@ -7,7 +7,7 @@ First off, thanks for taking the time to contribute! 🎉
 
 ### 1. Adding a new Trick
 1. Fork this repository.
-2. Create a new `.md` file in the appropriate folder (e.g., `content/sound-design/my-trick.md`).
+2. Create a new `.md` file in the appropriate folder (e.g., `sound-design/my-trick.md`).
 3. **Important:** Add the OS Version Badge at the very top of your file.
 4. Use clear headings and bullet points.
 5. Submit a Pull Request.
