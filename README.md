@@ -39,5 +39,10 @@ Please read our [Contribution Guidelines](CONTRIBUTING.md) before submitting a P
 2. Specify the OS version you tested on.
 3. Keep it reproducible.
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people:
+
 ---
 *Disclaimer: This repository is a community project and not affiliated with Elektron Music Machines MAV AB.*
